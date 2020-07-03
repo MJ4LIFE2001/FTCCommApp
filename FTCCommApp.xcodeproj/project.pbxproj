@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -118,6 +118,9 @@
 		2C73B39024AF0B1F00B99FEE /* FTCCommApp */ = {
 			isa = PBXGroup;
 			children = (
+				D757E15124AF2499002236F7 /* Model */,
+				D757E15024AF248E002236F7 /* View */,
+				D757E14F24AF2461002236F7 /* Controller */,
 				2C73B39124AF0B1F00B99FEE /* AppDelegate.swift */,
 				2C73B39324AF0B1F00B99FEE /* SceneDelegate.swift */,
 				2C73B39524AF0B1F00B99FEE /* ViewController.swift */,
@@ -158,7 +161,6 @@
 				D096C0E972C2B0B05AE2A9CC /* Pods-FTCCommAppTests.debug.xcconfig */,
 				6924177D52C8BB30A8B26E11 /* Pods-FTCCommAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -170,6 +172,27 @@
 				231828579479BCAB4AA4658A /* Pods_FTCCommAppTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D757E14F24AF2461002236F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D757E15024AF248E002236F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D757E15124AF2499002236F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

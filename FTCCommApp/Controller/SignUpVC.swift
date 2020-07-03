@@ -18,6 +18,8 @@ class SignUpVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
     
     @IBOutlet weak var usernameField: UITextField!
     
+    @IBOutlet wear var signUpBtn: UIButton!
+    
     var userUid: String!
     
     var emailField: String!
@@ -42,7 +44,65 @@ class SignUpVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
         // Do any additional setup after loading the view.
     }
     override func viewDidDisappear(_ animated: Bool) {
-        <#code#>
+        
+        if let _ = KeychainWrapper.standard.string(forKey: "uid") {
+            
+            performSegue(withIdentifier: "toMessage", sender: nil)
+        }
     }
-
+    
+    func uploadImg() {
+        
+        if usernameField.text == nil {
+            
+            signUpBtn.isEnabled = false
+            
+        } else {
+            username = usernameField.text
+            
+            signUpBtn.isEnabled = true
+        }
+        
+        guard let imag = userImage.image, imageSelected == true else {
+            print("image needs to be selected")
+            
+            return
+        }
+        
+        if let imgData = UIImageJPEGRepresentation(img, 0.2){
+            
+            let imgUid = NSUUID().uuidString
+            
+            let metadata = StorageMetadata
+        }
+    }
+    @IBAction func createAccount (_ sender: AnyObject){
+        
+        Auth.auth().createUser(withEmail: emailField, password: passwordField,
+            completion: { (user, error) in
+                                    if error != nil {
+                                        
+                                        print("Cant create user")
+                                    } else {
+                                        
+                                        if let user = user {
+                                            
+                                            self.userUid = user.uid
+                                        }
+                                    }
+                
+                self.uploadImg()
+        }
+        )
+    }
+    
+    @IBAction func selectedImgPicker (_ sender: AnyObject){
+        
+        present(imagePicker, animated: true, completion: nil)
+    }
+    
+    @IBAction func cancel (_sender: AnyObject) {
+        
+        dismiss(animated: true, completion: nil)
+    }
 }

@@ -20,6 +20,7 @@
 		568D3BC689666D9469972C00 /* Pods_FTCCommApp_FTCCommAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7F2BBA2BA5AA07D6215D91 /* Pods_FTCCommApp_FTCCommAppUITests.framework */; };
 		88AC13A58D003A9FBE14638B /* Pods_FTCCommAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231828579479BCAB4AA4658A /* Pods_FTCCommAppTests.framework */; };
 		CC97742223D44F4595C47E55 /* Pods_FTCCommApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F52CEF0CF178FB399BAD195 /* Pods_FTCCommApp.framework */; };
+		D757E15524AF33D3002236F7 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D757E15424AF33D3002236F7 /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		5A7F2BBA2BA5AA07D6215D91 /* Pods_FTCCommApp_FTCCommAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTCCommApp_FTCCommAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6924177D52C8BB30A8B26E11 /* Pods-FTCCommAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCCommAppTests.release.xcconfig"; path = "Target Support Files/Pods-FTCCommAppTests/Pods-FTCCommAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		D096C0E972C2B0B05AE2A9CC /* Pods-FTCCommAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCCommAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FTCCommAppTests/Pods-FTCCommAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D757E15424AF33D3002236F7 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		E2336AFF84116172B8A8608E /* Pods-FTCCommApp-FTCCommAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCCommApp-FTCCommAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FTCCommApp-FTCCommAppUITests/Pods-FTCCommApp-FTCCommAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F71410689F0F72EA94073C21 /* Pods-FTCCommApp-FTCCommAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCCommApp-FTCCommAppUITests.release.xcconfig"; path = "Target Support Files/Pods-FTCCommApp-FTCCommAppUITests/Pods-FTCCommApp-FTCCommAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,6 +182,7 @@
 			children = (
 				2C73B39524AF0B1F00B99FEE /* LoginVC.swift */,
 				2C2A168624AF32A200D2CE5A /* ChatVC.swift */,
+				D757E15424AF33D3002236F7 /* SignUpVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				2C2A168724AF32A200D2CE5A /* ChatVC.swift in Sources */,
 				2C73B39624AF0B1F00B99FEE /* LoginVC.swift in Sources */,
 				2C73B39224AF0B1F00B99FEE /* AppDelegate.swift in Sources */,
+				D757E15524AF33D3002236F7 /* SignUpVC.swift in Sources */,
 				2C73B39424AF0B1F00B99FEE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

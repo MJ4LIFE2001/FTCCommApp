@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C2A168724AF32A200D2CE5A /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A168624AF32A200D2CE5A /* ChatVC.swift */; };
 		2C73B39224AF0B1F00B99FEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C73B39124AF0B1F00B99FEE /* AppDelegate.swift */; };
 		2C73B39424AF0B1F00B99FEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C73B39324AF0B1F00B99FEE /* SceneDelegate.swift */; };
 		2C73B39624AF0B1F00B99FEE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C73B39524AF0B1F00B99FEE /* LoginVC.swift */; };
@@ -42,6 +43,7 @@
 		1234DC2EE187D9F092392F05 /* Pods-FTCCommApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCCommApp.debug.xcconfig"; path = "Target Support Files/Pods-FTCCommApp/Pods-FTCCommApp.debug.xcconfig"; sourceTree = "<group>"; };
 		231828579479BCAB4AA4658A /* Pods_FTCCommAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTCCommAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		286B36245C66B2842DF7E8E8 /* Pods-FTCCommApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCCommApp.release.xcconfig"; path = "Target Support Files/Pods-FTCCommApp/Pods-FTCCommApp.release.xcconfig"; sourceTree = "<group>"; };
+		2C2A168624AF32A200D2CE5A /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		2C73B38E24AF0B1F00B99FEE /* FTCCommApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTCCommApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C73B39124AF0B1F00B99FEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C73B39324AF0B1F00B99FEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				2C73B39524AF0B1F00B99FEE /* LoginVC.swift */,
+				2C2A168624AF32A200D2CE5A /* ChatVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C2A168724AF32A200D2CE5A /* ChatVC.swift in Sources */,
 				2C73B39624AF0B1F00B99FEE /* LoginVC.swift in Sources */,
 				2C73B39224AF0B1F00B99FEE /* AppDelegate.swift in Sources */,
 				2C73B39424AF0B1F00B99FEE /* SceneDelegate.swift in Sources */,

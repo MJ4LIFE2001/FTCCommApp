@@ -1,0 +1,6 @@
+framework module Pods_FTCCommApp_FTCCommAppUITests {
+  umbrella header "Pods-FTCCommApp-FTCCommAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

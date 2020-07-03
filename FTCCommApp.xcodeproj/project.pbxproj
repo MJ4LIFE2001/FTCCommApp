@@ -16,6 +16,9 @@
 		2C73B3A924AF0B2300B99FEE /* FTCCommAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C73B3A824AF0B2300B99FEE /* FTCCommAppTests.swift */; };
 		2C73B3B424AF0B2300B99FEE /* FTCCommAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C73B3B324AF0B2300B99FEE /* FTCCommAppUITests.swift */; };
 		2CB68C1024AF1C5200658C20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CB68C0F24AF1C5100658C20 /* GoogleService-Info.plist */; };
+		568D3BC689666D9469972C00 /* Pods_FTCCommApp_FTCCommAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7F2BBA2BA5AA07D6215D91 /* Pods_FTCCommApp_FTCCommAppUITests.framework */; };
+		88AC13A58D003A9FBE14638B /* Pods_FTCCommAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231828579479BCAB4AA4658A /* Pods_FTCCommAppTests.framework */; };
+		CC97742223D44F4595C47E55 /* Pods_FTCCommApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F52CEF0CF178FB399BAD195 /* Pods_FTCCommApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1234DC2EE187D9F092392F05 /* Pods-FTCCommApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCCommApp.debug.xcconfig"; path = "Target Support Files/Pods-FTCCommApp/Pods-FTCCommApp.debug.xcconfig"; sourceTree = "<group>"; };
+		231828579479BCAB4AA4658A /* Pods_FTCCommAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTCCommAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		286B36245C66B2842DF7E8E8 /* Pods-FTCCommApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCCommApp.release.xcconfig"; path = "Target Support Files/Pods-FTCCommApp/Pods-FTCCommApp.release.xcconfig"; sourceTree = "<group>"; };
 		2C73B38E24AF0B1F00B99FEE /* FTCCommApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTCCommApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C73B39124AF0B1F00B99FEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C73B39324AF0B1F00B99FEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		2C73B3B324AF0B2300B99FEE /* FTCCommAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTCCommAppUITests.swift; sourceTree = "<group>"; };
 		2C73B3B524AF0B2300B99FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CB68C0F24AF1C5100658C20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4F52CEF0CF178FB399BAD195 /* Pods_FTCCommApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTCCommApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7F2BBA2BA5AA07D6215D91 /* Pods_FTCCommApp_FTCCommAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTCCommApp_FTCCommAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6924177D52C8BB30A8B26E11 /* Pods-FTCCommAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCCommAppTests.release.xcconfig"; path = "Target Support Files/Pods-FTCCommAppTests/Pods-FTCCommAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D096C0E972C2B0B05AE2A9CC /* Pods-FTCCommAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCCommAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FTCCommAppTests/Pods-FTCCommAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2336AFF84116172B8A8608E /* Pods-FTCCommApp-FTCCommAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCCommApp-FTCCommAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FTCCommApp-FTCCommAppUITests/Pods-FTCCommApp-FTCCommAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F71410689F0F72EA94073C21 /* Pods-FTCCommApp-FTCCommAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCCommApp-FTCCommAppUITests.release.xcconfig"; path = "Target Support Files/Pods-FTCCommApp-FTCCommAppUITests/Pods-FTCCommApp-FTCCommAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC97742223D44F4595C47E55 /* Pods_FTCCommApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88AC13A58D003A9FBE14638B /* Pods_FTCCommAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				568D3BC689666D9469972C00 /* Pods_FTCCommApp_FTCCommAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				2C73B3A724AF0B2300B99FEE /* FTCCommAppTests */,
 				2C73B3B224AF0B2300B99FEE /* FTCCommAppUITests */,
 				2C73B38F24AF0B1F00B99FEE /* Products */,
+				2DC8FA99885E140E961AA354 /* Pods */,
+				3C219A22F21E261C7FEB2F63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +148,30 @@
 			path = FTCCommAppUITests;
 			sourceTree = "<group>";
 		};
+		2DC8FA99885E140E961AA354 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1234DC2EE187D9F092392F05 /* Pods-FTCCommApp.debug.xcconfig */,
+				286B36245C66B2842DF7E8E8 /* Pods-FTCCommApp.release.xcconfig */,
+				E2336AFF84116172B8A8608E /* Pods-FTCCommApp-FTCCommAppUITests.debug.xcconfig */,
+				F71410689F0F72EA94073C21 /* Pods-FTCCommApp-FTCCommAppUITests.release.xcconfig */,
+				D096C0E972C2B0B05AE2A9CC /* Pods-FTCCommAppTests.debug.xcconfig */,
+				6924177D52C8BB30A8B26E11 /* Pods-FTCCommAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C219A22F21E261C7FEB2F63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F52CEF0CF178FB399BAD195 /* Pods_FTCCommApp.framework */,
+				5A7F2BBA2BA5AA07D6215D91 /* Pods_FTCCommApp_FTCCommAppUITests.framework */,
+				231828579479BCAB4AA4658A /* Pods_FTCCommAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C73B3B824AF0B2300B99FEE /* Build configuration list for PBXNativeTarget "FTCCommApp" */;
 			buildPhases = (
+				715B2A9141F1115A07B7A645 /* [CP] Check Pods Manifest.lock */,
 				2C73B38A24AF0B1F00B99FEE /* Sources */,
 				2C73B38B24AF0B1F00B99FEE /* Frameworks */,
 				2C73B38C24AF0B1F00B99FEE /* Resources */,
+				A41983AA4119997D268072FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C73B3BB24AF0B2300B99FEE /* Build configuration list for PBXNativeTarget "FTCCommAppTests" */;
 			buildPhases = (
+				90C6F2E6E7B561EA8227A281 /* [CP] Check Pods Manifest.lock */,
 				2C73B3A024AF0B2300B99FEE /* Sources */,
 				2C73B3A124AF0B2300B99FEE /* Frameworks */,
 				2C73B3A224AF0B2300B99FEE /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C73B3BE24AF0B2300B99FEE /* Build configuration list for PBXNativeTarget "FTCCommAppUITests" */;
 			buildPhases = (
+				66E53C293FE69B8A2B59F3EE /* [CP] Check Pods Manifest.lock */,
 				2C73B3AB24AF0B2300B99FEE /* Sources */,
 				2C73B3AC24AF0B2300B99FEE /* Frameworks */,
 				2C73B3AD24AF0B2300B99FEE /* Resources */,
+				F1A0496235A4C4AD69514229 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +303,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66E53C293FE69B8A2B59F3EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FTCCommApp-FTCCommAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		715B2A9141F1115A07B7A645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FTCCommApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90C6F2E6E7B561EA8227A281 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FTCCommAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A41983AA4119997D268072FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FTCCommApp/Pods-FTCCommApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FTCCommApp/Pods-FTCCommApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FTCCommApp/Pods-FTCCommApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A0496235A4C4AD69514229 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FTCCommApp-FTCCommAppUITests/Pods-FTCCommApp-FTCCommAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FTCCommApp-FTCCommAppUITests/Pods-FTCCommApp-FTCCommAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FTCCommApp-FTCCommAppUITests/Pods-FTCCommApp-FTCCommAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C73B38A24AF0B1F00B99FEE /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		2C73B3B924AF0B2300B99FEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1234DC2EE187D9F092392F05 /* Pods-FTCCommApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +604,7 @@
 		};
 		2C73B3BA24AF0B2300B99FEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286B36245C66B2842DF7E8E8 /* Pods-FTCCommApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +623,7 @@
 		};
 		2C73B3BC24AF0B2300B99FEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D096C0E972C2B0B05AE2A9CC /* Pods-FTCCommAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +646,7 @@
 		};
 		2C73B3BD24AF0B2300B99FEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6924177D52C8BB30A8B26E11 /* Pods-FTCCommAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +669,7 @@
 		};
 		2C73B3BF24AF0B2300B99FEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2336AFF84116172B8A8608E /* Pods-FTCCommApp-FTCCommAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +690,7 @@
 		};
 		2C73B3C024AF0B2300B99FEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71410689F0F72EA94073C21 /* Pods-FTCCommApp-FTCCommAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
